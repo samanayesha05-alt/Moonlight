@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="../Style/signup.css">
+</head>
+<body>
+    <section class="signup-section">
+        <div class="page-title">
+            <h1>Sign-Up Here</h1>
+        </div>
+        <div class="page-data">
+            <form id="signupForm">
+                <div id="name-input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name" required>
+                </div>
+                <div id="email-input">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div id="password-input">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Min. Six Characters" required>
+                </div>
+                <div id="role-input">
+                    <label for="role">Role:</label>
+                    <select name="role" id="role" required>
+                        <option value="seller">Seller</option>
+                        <option value="customer">Customer</option>
+                    </select>
+                </div>
+                <div class="sumbit-btn">
+                    <button type="submit" id="btn">SIGN UP</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="../Scripts/signup.js"></script>
+</body>
+</html>

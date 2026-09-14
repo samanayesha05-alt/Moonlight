@@ -1,0 +1,32 @@
+.signup-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-data form {
+    border: solid 1px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    background-color: beige;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#email-input {
+    margin: 10px;
+}
+
+#password-input {
+    margin: 10px;
+}
